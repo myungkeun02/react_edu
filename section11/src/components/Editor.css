@@ -1,0 +1,39 @@
+.Editor {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.Editor > input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+}
+
+.Editor > input {
+    outline-color: coral;
+}
+
+.Editor > button {
+    cursor: pointer;
+    width: 80px;
+    border: none;
+    background-color: coral;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.Editor > button:hover {
+    transform: scale(1.1);
+    animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+    0% { transform: scale(1.1) translateX(0); }
+    25% { transform: scale(1.1) translateX(-3px); }
+    50% { transform: scale(1.1) translateX(3px); }
+    75% { transform: scale(1.1) translateX(-3px); }
+    100% { transform: scale(1.1) translateX(0); }
+}
