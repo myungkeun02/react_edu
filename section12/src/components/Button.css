@@ -1,0 +1,67 @@
+.Button {
+  background-color: rgb(236, 236, 236);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  white-space: nowrap;
+}
+.Button:hover {
+  background-color: rgb(226, 226, 226);
+}
+.Button:active {
+  background-color: rgb(216, 216, 216);
+}
+.Button:disabled {
+  background-color: rgb(246, 246, 246);
+  cursor: not-allowed;
+}
+.Button:disabled:hover {
+  background-color: rgb(246, 246, 246);
+}
+.Button:disabled:active {
+  background-color: rgb(246, 246, 246);
+}
+
+.Button_POSITIVE {
+  background-color: rgb(100, 201, 100);
+  color: white;
+}
+.Button_POSITIVE:hover {
+  background-color: rgb(90, 191, 90);
+}
+.Button_POSITIVE:active {
+  background-color: rgb(80, 181, 80);
+}
+.Button_POSITIVE:disabled {
+  background-color: rgb(100, 201, 100);
+  cursor: not-allowed;
+}
+.Button_POSITIVE:disabled:hover {
+  background-color: rgb(100, 201, 100);
+}
+.Button_POSITIVE:disabled:active {
+  background-color: rgb(100, 201, 100);
+}
+
+.Button_NEGATIVE {
+  background-color: rgb(253, 86, 95);
+  color: white;
+}
+.Button_NEGATIVE:hover {
+  background-color: rgb(243, 76, 85);
+}
+.Button_NEGATIVE:active {
+  background-color: rgb(233, 66, 75);
+}
+.Button_NEGATIVE:disabled {
+  background-color: rgb(253, 86, 95);
+  cursor: not-allowed;
+}
+.Button_NEGATIVE:disabled:hover {
+  background-color: rgb(253, 86, 95);
+}
+.Button_NEGATIVE:disabled:active {
+  background-color: rgb(253, 86, 95);
+}
